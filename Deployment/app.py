@@ -15,6 +15,7 @@ def captions():
     caption = None
     path = None
     res_dict = {}
+    
     if request.method == 'POST':
         f = request.files['userfile']
         path = "./static/{}".format(f.filename)
