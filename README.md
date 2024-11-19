@@ -12,12 +12,6 @@ An application that generates captions for images using deep learning. This proj
 - Compatible with various image formats (JPG, PNG, etc.).
 
 ---
-
-## 🚀 Demo
-
-![Demo](https://via.placeholder.com/800x400)  
-*(Replace this placeholder with a demo image or GIF showing your app in action.)*
-
 ---
 
 ## 🛠️ Technologies Used
@@ -40,3 +34,23 @@ Ensure you have the following installed:
 ```bash
 git clone https://github.com/<your-username>/Image_Caption.git
 cd Image_Caption
+```
+
+### Start the Application
+```bash
+
+python app.py
+
+```
+
+
+### Open your web browser and go to http://127.0.0.1:5000/ to use the application.
+
+### Testing
+
+Run tests to verify the functionality of the application:
+
+```bash
+python test_caption_generator.py
+
+```
